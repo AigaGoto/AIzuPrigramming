@@ -19,7 +19,7 @@ int main() {
     for (int i = 0; i < s_len - p_len; i++) {
         result = s.compare(i, p_len, p);
         if ( result == 0) {
-            output = 'Yes'
+            output = 'Yes';
             break;
         }
     } 
